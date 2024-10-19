@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Add Author</h1>
+
+    {{ form_start(formxx) }}
+        {{ form_row(formxx.username) }}
+        {{ form_row(formxx.email) }}
+        <button type="submit">Save</button>
+    {{ form_end(formxx) }}
+{% endblock %}
+

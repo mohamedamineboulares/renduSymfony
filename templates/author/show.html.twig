@@ -1,0 +1,19 @@
+{# templates/author/show.html.twig #}
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    {% for a in author %}
+        <tr>
+            <td>{{ a.id }}</td>
+            <td>{{ a.username }}</td>
+            <td>{{ a.email }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+
+
+
